@@ -498,7 +498,7 @@
     <LoopTerminator name="trials_2"/>
     <Routine name="trial_instructions"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
-      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="Selected rows" updates="None" val="$random(100)*2000" valType="str"/>
       <Param name="conditions" updates="None" val="[OrderedDict([('type', 'real'), ('path', './exp_images/real/348.png')]), OrderedDict([('type', 'real'), ('path', './exp_images/real/412.png')]), OrderedDict([('type', 'real'), ('path', './exp_images/real/374.png')]), OrderedDict([('type', 'real'), ('path', './exp_images/real/360.png')]), OrderedDict([('type', 'real'), ('path', './exp_images/real/406.png')]), OrderedDict([('type', 'real'), ('path', './exp_images/real/638.png')]), OrderedDict([('type', 'real'), ('path', './exp_images/real/176.png')]), OrderedDict([('type', 'real'), ('path', './exp_images/real/88.png')]), OrderedDict([('type', 'real'), ('path', './exp_images/real/610.png')]), OrderedDict([('type', 'real'), ('path', './exp_images/real/604.png')])]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="exp_images/conditions.csv" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
